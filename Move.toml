@@ -1,0 +1,13 @@
+[package]
+name = 'collex_gacha'
+version = '1.0.0'
+authors = []
+
+[addresses]
+collex_sc = "0xcafe"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
